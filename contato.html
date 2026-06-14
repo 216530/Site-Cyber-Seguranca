@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contate-nos</title>
     <link rel="stylesheet" href="./css/css_principal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +13,84 @@
 
 <body>
     <header id="sticky2">
-        <h1 class="textfontgoogle">Ameaças Digitais - Códigos Maliciosos</h1>
+        <h1 class="textfontgoogle">Página de contato</h1>
     </header>
     <nav aria-label="Navegação secundária">
         <ul class="links2">
             <li><a href="./Index.html">Retornar ao início</a></li>
         </ul>
     </nav>
-</body>
+    <main>
+        <article id="formFull">
+            <h1>ENTRE EM CONTATO</h1>
+            <p>Preencha o formulário abaixo e responderemos o mais breve possível.</p>
+            
+            <form>
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Nome completo:</label><br>
+                    <input class="formBloco"
+                        type="text"
+                        required
+                        placeholder="Digite seu nome">
+                </section>
 
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">G-mail</label><br>
+                    <input class="formBloco" 
+                        type="email"
+                        required
+                        placeholder="exemplo@gmail.com.br">
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Telefone</label><br>
+                    <input class="formBloco"
+                        type="tel"
+                        placeholder="(00) 00000-0000">
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Assunto</label><br>
+                    <select required class="formBloco">
+                        <option value="" disabled selected>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Outro</option>
+                    </select>
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Mensagem</label><br>
+                    <textarea class="formBloco" rows="3" required></textarea>
+                </section>
+                <button id="submitButton">ENVIAR MENSAGEM</button>
+            </form>
+
+            <section id="formContato">
+                <h4>CONTATO DOS INTEGRANTES DO GRUPO:</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Rafael Nome Completo</td>
+                            <td>216530@upf.br</td>
+                        </tr>
+
+                        <tr>
+                            <td>Eduardo Teixeira Ramos</td>
+                            <td>215708@upf.br</td>
+                        </tr>
+
+                        <tr>
+                            <td>Luis Eduardo Rissardo</td>
+                            <td>208992@upf.br</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+        <script src="js/main.js"></script>
+<!--      Eu fiquei 30 minutos sem entender do pq tava 
+ dando erro mas essa droga de js tava carregando antes do html -->
+    </main>
+</body>
 </html>
