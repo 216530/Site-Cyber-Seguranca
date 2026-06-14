@@ -1,13 +1,16 @@
+body {
+    background-color: #1a1a2e;
+    color: white;
+}
+
+/* pq q tu fez isso em vez de só botar no body? se precisar mesmo, bota dnv
 #index, #tipos-de-malware, #protecao{
     background-color: #1a1a2e;
     color:cornsilk
-
-
-}
-
+} */
 
 #sticky{
-     position: sticky;
+    position: sticky;
     justify-content: space-around;
     top: 0%;
     padding: 5px;
@@ -15,11 +18,10 @@
     border: 2px solid #00d4ff;
     border-radius: 10px;
     display: flex;
-
 }
 
 #links{
-      display: flex;
+    display: flex;
     justify-content: space-around;
     top: 0px;
     padding: 5px;
@@ -34,6 +36,7 @@ a{
     font-size: 18px;
     font-weight: bold;
 }
+
 .conteudo1{
     width: 50%;
     margin: 0 auto;
@@ -43,11 +46,11 @@ a{
     border-radius: 10px;
     border: 2px solid #00d4ff;
     align-content: right;
-
 }
 
 .conteudo2{
-    width: 50%;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.1);
@@ -83,7 +86,7 @@ a{
 
 .blocos-malwares {
     background: rgba(255, 255, 255, 0.1);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     color: cornsilk;
     text-align: left;
@@ -91,6 +94,17 @@ a{
     min-height: 400px;
     align-self: stretch;
     border: 2px solid #00d4ff;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.blocos-malwares img, .conteudo2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto 0 auto; 
+    border-radius: 5px;
 }
 
 .protecoes{
@@ -124,9 +138,8 @@ a{
     align-items: center;
 }
 
-
 #sticky2{
-position: sticky;
+    position: sticky;
     top: 0px;
     padding: 3px;
     background-color: black;
@@ -137,6 +150,7 @@ position: sticky;
     list-style: none;
     height: 50px;
 
+    color: white;
 }
 
 .links2 {
@@ -150,4 +164,96 @@ position: sticky;
     border: 2px solid #00d4ff;
     border-radius: 10px;
     list-style: none;
+}
+
+/* PAGINA DE CONTATOS */
+#formFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(0, 0, 0);
+    border: 4px solid #00d4ff;
+    border-radius: 10px;
+    padding: 40px 50px 60px 50px;
+    margin: 20px auto 0px auto; /* top right bottom left */
+    width: fit-content;
+    font-size: larger;
+}
+
+#formFull h1 {
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: rgb(5, 5, 5);
+    margin: 0px auto 0px auto;
+    padding-top: 0px;
+}
+
+#formFull p {
+    margin: 10px 0 5px 0;
+}
+
+.formGroup {
+    text-align: center;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(5, 5, 5);
+}
+
+#formFull button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    background-color: rgb(19, 19, 19);
+    border: 1px rgb(0, 255, 255) solid;
+    border-radius: 10px;
+        width: 200px;
+        height: 35px;
+
+    display: block; /* pq o display padrao de um button é inline-block e isso nao aceita margin auto */
+    margin: 0px auto 0px auto;
+}
+
+.formBloco {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+.formBlocoTitulo {
+    font-size: 23px;
+    color: rgb(0, 255, 255);
+}
+
+#formContato {
+    background-color: rgb(8, 8, 8);
+    border: 1px solid cyan;
+    border-radius: 10px;
+
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+#formContato h4 {
+    margin: 0px; /* tirar a margem padrao nojenta do h3 */
+    background-color: rgb(10, 10, 10);
+    border: 1px rgba(0, 255, 255, 0.147) solid;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#formContato table {
+    border-collapse: collapse; /* tira as bordas duplicadas de cada td */
+    width: 540px;
+}
+
+#formContato td {
+    border-bottom: 1px solid rgba(0, 242, 255, 0.057);
+    padding: 5px;
 }
