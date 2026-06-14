@@ -33,7 +33,7 @@ body {
 a{
     color: #00ff88;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.1em; 
     font-weight: bold;
 }
 
@@ -45,33 +45,28 @@ a{
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
-    align-content: right;
 }
 
 .conteudo2{
-    width: 90%;
-    max-width: 800px;
+    width: 50%;
     margin: 0 auto;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
-    align-content: right;
     line-height: 1.6;
 }
 
 .conteudo3{
-        width: 50%;
+    width: 50%;
     margin: 0 auto;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
-    align-content: right;
     line-height: 1.6;
-
 }
 
 .malwares{
@@ -86,7 +81,7 @@ a{
 
 .blocos-malwares {
     background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     color: cornsilk;
     text-align: left;
@@ -94,17 +89,6 @@ a{
     min-height: 400px;
     align-self: stretch;
     border: 2px solid #00d4ff;
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
-}
-
-.blocos-malwares img, .conteudo2 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 15px auto 0 auto; 
-    border-radius: 5px;
 }
 
 .protecoes{
@@ -128,7 +112,6 @@ a{
     align-self: stretch;
     border: 2px solid #00d4ff;
 }
-
 .textfontgoogle{
     display: flex;
     justify-content: center;
@@ -149,7 +132,6 @@ a{
     justify-content: space-around;
     list-style: none;
     height: 50px;
-
     color: white;
 }
 
@@ -166,17 +148,15 @@ a{
     list-style: none;
 }
 
-/* PAGINA DE CONTATOS */
 #formFull {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     background-color: rgb(0, 0, 0);
     border: 4px solid #00d4ff;
     border-radius: 10px;
     padding: 40px 50px 60px 50px;
-    margin: 20px auto 0px auto; /* top right bottom left */
+    margin: 20px auto 0px auto;
     width: fit-content;
     font-size: larger;
 }
@@ -186,7 +166,6 @@ a{
     border-radius: 25px;
     background-color: rgb(5, 5, 5);
     margin: 0px auto 0px auto;
-    padding-top: 0px;
 }
 
 #formFull p {
@@ -203,19 +182,15 @@ a{
 }
 
 #formFull button {
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: white;
     background-color: rgb(19, 19, 19);
     border: 1px rgb(0, 255, 255) solid;
     border-radius: 10px;
-        width: 200px;
-        height: 35px;
-
-    display: block; /* pq o display padrao de um button é inline-block e isso nao aceita margin auto */
+    width: 200px;
+    height: 35px;
+    display: block;
     margin: 0px auto 0px auto;
+    cursor: pointer;
 }
 
 .formBloco {
@@ -223,11 +198,11 @@ a{
     border: 2px solid black;
     text-align: center;
     width: 50%;
-    font-size: 20px;
+    font-size: 1.2em; 
 }
 
 .formBlocoTitulo {
-    font-size: 23px;
+    font-size: 1.4em; 
     color: rgb(0, 255, 255);
 }
 
@@ -235,25 +210,126 @@ a{
     background-color: rgb(8, 8, 8);
     border: 1px solid cyan;
     border-radius: 10px;
-
     text-align: center;
     margin: 10px 0 0 0;
 }
 
 #formContato h4 {
-    margin: 0px; /* tirar a margem padrao nojenta do h3 */
+    margin: 0px;
     background-color: rgb(10, 10, 10);
     border: 1px rgba(0, 255, 255, 0.147) solid;
-    border-radius: 10px;
+   border-radius: 10px;
     padding: 7px;
 }
 
 #formContato table {
-    border-collapse: collapse; /* tira as bordas duplicadas de cada td */
+    border-collapse: collapse;
     width: 540px;
 }
 
 #formContato td {
     border-bottom: 1px solid rgba(0, 242, 255, 0.057);
     padding: 5px;
+}
+
+.btnTema {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #00d4ff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.blocoAcessibilidade {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.btnFonte {
+    padding: 10px 15px;
+    background-color: #00d4ff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body.modoNoturnoFull {
+    background-color: #0c0c14 !important;
+    color: #ffffff !important;
+}
+
+body.modoNoturnoFull header,
+body.modoNoturnoFull #sticky2 {
+    background-color: #000000 !important;
+    border-color: #00ff88 !important;
+}
+
+body.modoNoturnoFull nav ul,
+body.modoNoturnoFull .links2 {
+    background-color: #05050a !important;
+    border-color: #00ff88 !important;
+}
+
+
+body.modoNoturnoFull .conteudo1,
+body.modoNoturnoFull .conteudo2,
+body.modoNoturnoFull .conteudo3,
+body.modoNoturnoFull .blocos-malwares,
+body.modoNoturnoFull .bloco-protecoes,
+body.modoNoturnoFull #formFull {
+    background-color: #121222 !important;
+    border-color: #00ff88 !important;
+    color: #ffffff !important;
+}
+
+body.modoNoturnoFull a {
+    color: #00ff88 !important;
+}
+
+
+/* tomem esse ajuste de responsividade meus caros*/
+
+/* 
+    genio 
+*/
+.blocos-malwares img,
+.bloco-protecoes img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
+@media (max-width: 900px) {
+    .malwares, .protecoes {
+        grid-template-columns: 1fr;
+        max-width: 95%;
+    }
+
+    .conteudo1, .conteudo2, .conteudo3, .formBloco {
+        width: 90%;
+    }
+
+    #formFull {
+        width: 90%;
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    #formContato table {
+        width: 100%;
+    }
 }
