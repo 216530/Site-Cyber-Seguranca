@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <script src="./js/seguranca.js"></script>
 </head>
 <body>
      <header id="sticky2">
@@ -18,5 +19,29 @@
             <li><a href="./Index.html">Retornar ao início</a></li>
         </ul>
     </nav>
+    <br><br><br>
+    <main>
+        <article id="formFull">
+            <h1>GERADOR DE SENHAS</h1>
+            <p>Utilize a ferramenta interativa abaixo para criar sugestões instantâneas de senhas fortes.</p>
+            
+            <form>
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Senha Sugerida</label><br>
+                    <input class="formBloco" id="passwordDisplay" type="text" readonly placeholder="Sua senha aparecerá aqui">
+                </section>
+                
+                <button type="button" id="botaoSubmit" onclick="gerarSenha()">GERAR NOVA SENHA</button>
+            </form>
+        </article>
+    </main>
+
+    <button class="btnTema" onclick="alternarTema()">Tema Escuro</button>
+    <div class="blocoAcessibilidade">
+        <button class="btnFonte" onclick="diminuirFonte()">-</button>
+        <button class="btnFonte" onclick="aumentarFonte()">+</button>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
