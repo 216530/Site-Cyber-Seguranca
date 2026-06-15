@@ -1,37 +1,49 @@
+html {
+    overflow: scroll;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    scrollbar-color: #0e0e1a #0e0e1a;
+}
+
 body {
     background-color: #1a1a2e;
     color: white;
 }
 
-/* pq q tu fez isso em vez de só botar no body? se precisar mesmo, bota dnv
-#index, #tipos-de-malware, #protecao{
-    background-color: #1a1a2e;
-    color:cornsilk
-} */
+nav {
+    margin-bottom: 50px;
+}
+
+h1 {
+
+}
 
 #sticky{
+    display: flex;
+    padding: 6px;
     position: sticky;
-    justify-content: space-around;
-    top: 0%;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0e0e1a;
     border: 2px solid #00d4ff;
     border-radius: 10px;
-    display: flex;
 }
 
 #links{
     display: flex;
-    justify-content: space-around;
-    top: 0px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+#links li {
+    list-style: none;
     border: 2px solid #00d4ff;
     border-radius: 10px;
+    padding: 7px;
+    background-color: #0e0e1a;
 }
 
 a{
-    color: #00ff88;
+    color: #00cfb6;
     text-decoration: none;
     font-size: 1.1em; 
     font-weight: bold;
@@ -41,7 +53,7 @@ a{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0e0e1a;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
@@ -52,7 +64,7 @@ a{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0e0e1a;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
@@ -63,7 +75,7 @@ a{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0e0e1a;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #00d4ff;
@@ -82,7 +94,7 @@ a{
 }
 
 .blocos-malwares {
-    background: rgba(255, 255, 255, 0.1);
+    background: #0e0e1a;
     padding: 40px;
     border-radius: 10px;
     color: cornsilk;
@@ -104,7 +116,7 @@ a{
 }
 
 .bloco-protecoes{
-    background: rgba(255, 255, 255, 0.1);
+    background: #0e0e1a;
     padding: 40px;
     border-radius: 10px;
     color: cornsilk;
@@ -114,6 +126,7 @@ a{
     align-self: stretch;
     border: 2px solid #00d4ff;
 }
+
 .textfontgoogle{
     display: flex;
     justify-content: center;
@@ -236,7 +249,7 @@ a{
 
 .btnTema {
     position: fixed;
-    bottom: 20px;
+    bottom: 11px;
     right: 20px;
     padding: 10px 15px;
     background-color: #00d4ff;
@@ -250,22 +263,52 @@ a{
 
 .blocoAcessibilidade {
     position: fixed;
-    bottom: 20px;
+    bottom: 3px;
     left: 20px;
-    display: flex;
-    gap: 10px;
     z-index: 1000;
 }
 
+.btnAcessibilidade {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #00b7dc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controlesFonte {
+    display: none;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    bottom: 3px;
+    right: -50px;
+    left: 60px;
+}
+
+#controlesFonte img {
+    display: block;
+    margin: 0px;
+    width: 34px;
+    height: 34px;
+}
+
+#controlesFonte.ativo {
+    display: flex;
+}
+
 .btnFonte {
-    padding: 10px 15px;
+    width: 45px;
+    height: 45px;
     background-color: #00d4ff;
     color: black;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 16px;
 }
 
 body.modoNoturnoFull {
@@ -273,19 +316,20 @@ body.modoNoturnoFull {
     color: #ffffff !important;
 }
 
-body.modoNoturnoFull header,
+/* body.modoNoturnoFull header,  isso da problema 👍 */
 body.modoNoturnoFull #sticky2,
-body.modoNoturnoFull #sticky {
+body.modoNoturnoFull #sticky, 
+body.modoNoturnoFull #footer {
     background-color: #000000 !important;
     border-color: #00ff88 !important;
 }
 
 body.modoNoturnoFull nav ul,
-body.modoNoturnoFull .links2 {
+body.modoNoturnoFull .links2, 
+body.modoNoturnoFull #footer {
     background-color: #05050a !important;
     border-color: #00ff88 !important;
 }
-
 
 body.modoNoturnoFull .conteudo1,
 body.modoNoturnoFull .conteudo2,
@@ -301,8 +345,6 @@ body.modoNoturnoFull #formFull {
 body.modoNoturnoFull a {
     color: #00ff88 !important;
 }
-
-
 /* tomem esse ajuste de responsividade meus caros*/
 
 /* 
@@ -335,4 +377,19 @@ body.modoNoturnoFull a {
     #formContato table {
         width: 100%;
     }
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0e0e1a;
+    color: white;
+    text-align: center; 
+    padding: 20px 50px;
+    font-size: 14px;
+    border-top: 2px solid #00d4ff;
+    z-index: 900;
+    box-sizing: border-box;
 }

@@ -20,7 +20,7 @@
             <li><a href="./Index.html">Retornar ao início</a></li>
         </ul>
     </nav>
-    <br><br><br>
+
     <main>
         <article>
             <h2 style="text-align: center; margin-top: 40px;">Integrantes do Grupo</h2>
@@ -62,10 +62,15 @@
 
     <button class="btnTema" onclick="alternarTema()">Tema Escuro</button>
     <div class="blocoAcessibilidade">
-        <button class="btnFonte" onclick="diminuirFonte()">-</button>
-        <button class="btnFonte" onclick="aumentarFonte()">+</button>
-    </div>
+        <button class="btnAcessibilidade" onclick="toggleAcessibilidade()">
+            <img src="./assets/icons/Accessibility.svg" alt="Botão de acessibilidade">
+        </button>
 
+        <div id="controlesFonte">
+            <button class="btnFonte" onclick="diminuirFonte()"><img src="./assets/icons/TextDecrease.svg" alt="A-"></button>
+            <button class="btnFonte" onclick="aumentarFonte()"><img src="./assets/icons/TextIncrease.svg" alt="A+"></button>
+        </div>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 

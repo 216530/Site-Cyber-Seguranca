@@ -3,12 +3,14 @@ function aumentarFonte() {
     tam = tam + 1; 
     document.body.style.fontSize = tam + "px";
 }
+
 function diminuirFonte() {
     if (tam > 10) { 
         tam = tam - 1; 
         document.body.style.fontSize = tam+ "px";
     }
 }
+
 function alternarTema() {
     var corpoPagina = document.body;
     var btnTema = document.querySelector(".btnTema");
@@ -23,7 +25,6 @@ function alternarTema() {
     }
 }
 
-
 /* tive que mudar essa parte de JS pq tava quebrando o resto kkkkk*/
 window.onload = function() {
     var botaoSubmit = document.getElementById("submitButton");
@@ -34,3 +35,7 @@ window.onload = function() {
         });
     }
 };
+
+function toggleAcessibilidade() {
+    document.getElementById("controlesFonte").classList.toggle("ativo");
+}
