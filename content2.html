@@ -13,7 +13,7 @@
 
 <body id="protecao">
     <header id="sticky2">
-    <h1 class="textfontgoogle">Proteção Digital - Como se Proteger</h1>
+        <h1 class="textfontgoogle">Proteção Digital - Como se Proteger</h1>
     </header>
     <nav aria-label="Navegação secundária">
         <ul class="links2">
@@ -24,13 +24,17 @@
     <main>
         <article>
             <section>
-                <div class="conteudo3">
-                    <h2 style="text-align: center;">Proteção Realmente Importa?</h2>
-                    <h3>Na internet, ameaças digitais estão em todo lugar e a maioria das infecções por códigos
-                        maliciosos acontece por descuido ou falta de informação. A boa notícia é que se proteger não
-                        exige ser um especialista. Com hábitos simples e as ferramentas certas, você reduz
-                        drasticamente as chances de ter seu dispositivo comprometido, seus dados roubados ou suas
-                        contas invadidas. Confira abaixo as principais práticas de proteção contra malware.</h3>
+                <div class="container-protecao">
+                    <img class="img-esquerda" src="./assets/boneco_proteção.png" alt="Boneco Proteção">
+                    <div class="conteudo3">
+                        <h2 style="text-align: center;">Proteção Realmente Importa?</h2>
+                        <h3>Na internet, ameaças digitais estão em todo lugar e a maioria das infecções por códigos
+                            maliciosos acontece por descuido ou falta de informação. A boa notícia é que se proteger não
+                            exige ser um especialista. Com hábitos simples e as ferramentas certas, você reduz
+                            drasticamente as chances de ter seu dispositivo comprometido, seus dados roubados ou suas
+                            contas invadidas. Confira abaixo as principais práticas de proteção contra malware.</h3>
+                    </div>
+                    <img class="img-direita" src="./assets/backup.png" alt="Backup">
                 </div>
                 <br>
                 <div class="protecoes">
@@ -123,34 +127,38 @@
                 </div>
             </section>
         </article>
-    <div class="conteudo3">
-        <h2 style="text-align: center;">Aja Rapidamente em Caso de Suspeitas</h2>
-        <h3>Se você clicou em um link suspeito, abriu um anexo duvidoso ou seu dispositivo está se
-            comportando de forma estranha, não espere. Quanto mais tempo um malware fica ativo, mais
-            dano pode causar. Use um antivírus para verificar o sistema imediatamente. Em alguns
-            casos, como em roteadores e dispositivos IoT, reiniciar o dispositivo já é suficiente
-            para remover o malware da memória. Se o problema persistir, a solução mais segura é
-            reinstalar o sistema operacional ou restaurar as configurações de fábrica. Depois disso,
-            troque as senhas de todos os serviços que você acessava naquele dispositivo.</h3>
-    </div>
-</main>
+        <div class="conteudo3">
+            <h2 style="text-align: center;">Aja Rapidamente em Caso de Suspeitas</h2>
+            <h3>Se você clicou em um link suspeito, abriu um anexo duvidoso ou seu dispositivo está se
+                comportando de forma estranha, não espere. Quanto mais tempo um malware fica ativo, mais
+                dano pode causar. Use um antivírus para verificar o sistema imediatamente. Em alguns
+                casos, como em roteadores e dispositivos IoT, reiniciar o dispositivo já é suficiente
+                para remover o malware da memória. Se o problema persistir, a solução mais segura é
+                reinstalar o sistema operacional ou restaurar as configurações de fábrica. Depois disso,
+                troque as senhas de todos os serviços que você acessava naquele dispositivo.</h3>
+        </div>
+    </main>
 
     <footer id="footer">
-        © 2026 Todo Conteúdo baseado neste blog foi criado para fins educacionais e baseado nas cartilhas "Códigos Maliciosos - Cartilha de Segurança para Internet."
+        © 2026 Todo Conteúdo baseado neste blog foi criado para fins educacionais e baseado nas cartilhas "Códigos
+        Maliciosos - Cartilha de Segurança para Internet."
     </footer>
 
     <button class="btnTema" onclick="alternarTema()">Tema Escuro</button>
     <div class="blocoAcessibilidade">
         <button class="btnAcessibilidade" onclick="toggleAcessibilidade()">
-          <img src="./assets/icons/Accessibility.svg" alt="Botão de acessibilidade">
+            <img src="./assets/icons/Accessibility.svg" alt="Botão de acessibilidade">
         </button>
 
-    <div id="controlesFonte">
-        <button class="btnFonte" onclick="diminuirFonte()"><img src="./assets/icons/TextDecrease.svg" alt="A-"></button>
-            <button class="btnFonte" onclick="aumentarFonte()"><img src="./assets/icons/TextIncrease.svg" alt="A+"></button>
+        <div id="controlesFonte">
+            <button class="btnFonte" onclick="diminuirFonte()"><img src="./assets/icons/TextDecrease.svg"
+                    alt="A-"></button>
+            <button class="btnFonte" onclick="aumentarFonte()"><img src="./assets/icons/TextIncrease.svg"
+                    alt="A+"></button>
         </div>
     </div>
 
     <script src="./js/main.js"></script>
-    </body>
+</body>
+
 </html>

@@ -113,6 +113,14 @@ a{
     align-items: start;
 }
 
+.container-protecao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    max-width: 90%;
+    margin: 0 auto 30px auto; 
+}
 .bloco-protecoes{
     background: #fff9f5;
     padding: 40px;
@@ -125,6 +133,11 @@ a{
     border: 2px solid #f0a0c0;
 }
 
+.img-esquerda,.img-direita{
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
 .textfontgoogle{
     display: flex;
     justify-content: center;
@@ -405,6 +418,15 @@ body.modoNoturnoFull .formBlocoTitulo {
 
     #formContato table {
         width: 100%;
+    }
+
+    .container-protecao{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo3{
+        width: 90% !important;
     }
 }
 
