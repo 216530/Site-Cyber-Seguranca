@@ -20,7 +20,7 @@ function alternarTema() {
         if (corpoPagina.classList.contains("modoNoturnoFull")) {
             btnTema.innerText = "Modo Claro";
         } else {
-            btnTema.innerText = "Modo Dark";
+            btnTema.innerText = "Modo Escuro";
         }
     }
 }
