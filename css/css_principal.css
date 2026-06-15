@@ -333,13 +333,44 @@ body.modoNoturnoFull .conteudo2,
 body.modoNoturnoFull .conteudo3,
 body.modoNoturnoFull .blocos-malwares,
 body.modoNoturnoFull .bloco-protecoes,
-body.modoNoturnoFull #formFull {
+body.modoNoturnoFull #formFull,
+body.modoNoturnoFull .formGroup,
+body.modoNoturnoFull #formContato,
+body.modoNoturnoFull #formContato h4,
+body.modoNoturnoFull .formBloco {
     background-color: #121222 !important;
     border-color: #00ff88 !important;
     color: #ffffff !important;
 }
 
+body.modoNoturnoFull #formFull h1 {
+    background-color: #0c0c14 !important;
+    border-color: #00ff88 !important;
+}
+
+body.modoNoturnoFull #links li {
+    background-color: #000000 !important;
+    border-color: #00ff88 !important;
+}
+
+body.modoNoturnoFull .btnTema,
+body.modoNoturnoFull .btnAcessibilidade,
+body.modoNoturnoFull .btnFonte {
+    background-color: #00ff88 !important;
+    color: #000000 !important;
+}
+
+body.modoNoturnoFull #formFull button {
+    background-color: #0c0c14 !important;
+    border-color: #00ff88 !important;
+    color: #ffffff !important;
+}
+
 body.modoNoturnoFull a {
+    color: #00ff88 !important;
+}
+
+body.modoNoturnoFull .formBlocoTitulo {
     color: #00ff88 !important;
 }
 
