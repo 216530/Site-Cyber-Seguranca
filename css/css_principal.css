@@ -15,6 +15,7 @@ nav {
 }
 
 #sticky{
+    color: white;
     display: flex;
     padding: 6px;
     position: sticky;
@@ -144,7 +145,7 @@ a{
     justify-content: space-around;
     list-style: none;
     height: 50px;
-    color: black;
+    color: #1a1a2e;
 }
 
 .links2 {
@@ -318,7 +319,6 @@ body.modoNoturnoFull #sticky,
 body.modoNoturnoFull #footer {
     background-color: #000000 !important;
     border-color: #00ff88 !important;
-    color: white !important;
 }
 
 body.modoNoturnoFull nav ul,
@@ -404,7 +404,6 @@ body.modoNoturnoFull .formBlocoTitulo {
 }
 
 #footer {
-    color: black;
     position: fixed;
     bottom: 0;
     left: 0;
