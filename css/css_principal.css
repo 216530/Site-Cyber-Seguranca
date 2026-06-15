@@ -19,7 +19,7 @@ nav {
     display: flex;
     padding: 6px;
     position: sticky;
-    background-color: #fff9f5;
+    background-color: #ebb8cc;
     border: 2px solid #f0a0c0;
     border-radius: 10px;
 }
@@ -36,7 +36,7 @@ nav {
     border: 2px solid #f0a0c0;
     border-radius: 10px;
     padding: 7px;
-    background-color: #fff9f5;
+    background-color: #ebb8cc;
 }
 
 a{
@@ -151,7 +151,7 @@ a{
     position: sticky;
     top: 0px;
     padding: 3px;
-    background-color: #fff9f5;
+    background-color: #ebb8cc;
     border: 2px solid #f0a0c0;
     border-radius: 10px;
     display: flex;
@@ -168,7 +168,7 @@ a{
     top: 50px;
     z-index: 999;
     padding: 3px;
-    background-color: #fff9f5;
+    background-color: #ebb8cc;
     border: 2px solid #f0a0c0;
     border-radius: 10px;
     list-style: none;
@@ -188,7 +188,6 @@ a{
 }
 
 #formFull h1 {
-    border: 1px solid #f0a0c0;
     border-radius: 25px;
     background-color: #fdf6f0;
     margin: 0px auto 0px auto;
@@ -225,6 +224,7 @@ a{
     text-align: center;
     width: 50%;
     font-size: 1.2em; 
+    resize: none;
 }
 
 .formBlocoTitulo {
@@ -263,7 +263,7 @@ a{
     bottom: 11px;
     right: 20px;
     padding: 10px 15px;
-    background-color: #f0a0c0;
+    background-color: #e973a2;
     color: #1a1a2e;
     border: none;
     border-radius: 5px;
@@ -284,7 +284,7 @@ a{
     height: 50px;
     border: none;
     border-radius: 50%;
-    background-color: #f0a0c0;
+    background-color: #e973a2;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -315,7 +315,7 @@ a{
 .btnFonte {
     width: 45px;
     height: 45px;
-    background-color: #f0a0c0;
+    background-color: #e973a2;
     color: #1a1a2e;
     border: none;
     border-radius: 50%;
@@ -348,12 +348,16 @@ body.modoNoturnoFull .blocos-malwares,
 body.modoNoturnoFull .bloco-protecoes,
 body.modoNoturnoFull #formFull,
 body.modoNoturnoFull .formGroup,
-body.modoNoturnoFull #formContato,
+body.modoNoturnoFull #formContato, 
 body.modoNoturnoFull #formContato h4,
 body.modoNoturnoFull .formBloco {
     background-color: #121222 !important;
     border-color: #00ff88 !important;
     color: #ffffff !important;
+}
+
+body.modoNoturnoFull #formContato td {
+    border-color: #00ff8825 !important;
 }
 
 body.modoNoturnoFull #formFull h1 {
@@ -430,12 +434,11 @@ body.modoNoturnoFull .formBlocoTitulo {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #fff9f5;
-    color: #1a1a2e;
+    background-color: #ebb8cc;
     text-align: center; 
     padding: 20px 50px;
     font-size: 14px;
-    border-top: 2px solid #f0a0c0;
+    border-top: 2px solid #ed86af;
     z-index: 900;
     box-sizing: border-box;
 }
