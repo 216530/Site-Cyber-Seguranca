@@ -184,7 +184,6 @@ a{
     padding: 40px 50px 60px 50px;
     margin: 20px auto 0px auto;
     width: fit-content;
-    font-size: larger;
 }
 
 #formFull h1 {
@@ -195,6 +194,7 @@ a{
 
 #formFull p {
     margin: 10px 0 5px 0;
+    text-align: center;
 }
 
 .formGroup {
