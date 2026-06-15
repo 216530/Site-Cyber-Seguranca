@@ -2,12 +2,12 @@ html {
     overflow: scroll;
     scrollbar-width: thin;
     overflow-x: hidden;
-    scrollbar-color: #0e0e1a #0e0e1a;
+    scrollbar-color: #f0a0c0 #fdf6f0;
 }
 
 body {
-    background-color: #1a1a2e;
-    color: white;
+    background-color: #fdf6f0;
+    color: #1a1a2e;
 }
 
 nav {
@@ -18,8 +18,8 @@ nav {
     display: flex;
     padding: 6px;
     position: sticky;
-    background-color: #0e0e1a;
-    border: 2px solid #00d4ff;
+    background-color: #fff9f5;
+    border: 2px solid #f0a0c0;
     border-radius: 10px;
 }
 
@@ -32,14 +32,14 @@ nav {
 
 #links li {
     list-style: none;
-    border: 2px solid #00d4ff;
+    border: 2px solid #f0a0c0;
     border-radius: 10px;
     padding: 7px;
-    background-color: #0e0e1a;
+    background-color: #fff9f5;
 }
 
 a{
-    color: #00cfb6;
+    color: #c0507a;
     text-decoration: none;
     font-size: 1.1em; 
     font-weight: bold;
@@ -49,21 +49,21 @@ a{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: #0e0e1a;
+    background-color: #fff9f5;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #00d4ff;
-    color: cornsilk;
+    border: 2px solid #f0a0c0;
+    color: #1a1a2e;
 }
 
 .conteudo2{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: #0e0e1a;
+    background-color: #fff9f5;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #00d4ff;
+    border: 2px solid #f0a0c0;
     line-height: 1.6;
 }
 
@@ -71,12 +71,12 @@ a{
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    background-color: #0e0e1a;
+    background-color: #fff9f5;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #00d4ff;
+    border: 2px solid #f0a0c0;
     line-height: 1.6;
-    color: cornsilk;
+    color: #1a1a2e;
 }
 
 .malwares{
@@ -90,15 +90,15 @@ a{
 }
 
 .blocos-malwares {
-    background: #0e0e1a;
+    background: #fff9f5;
     padding: 40px;
     border-radius: 10px;
-    color: cornsilk;
+    color: #1a1a2e;
     text-align: left;
     line-height: 1.6;
     min-height: 400px;
     align-self: stretch;
-    border: 2px solid #00d4ff;
+    border: 2px solid #f0a0c0;
 }
 
 .protecoes{
@@ -112,15 +112,15 @@ a{
 }
 
 .bloco-protecoes{
-    background: #0e0e1a;
+    background: #fff9f5;
     padding: 40px;
     border-radius: 10px;
-    color: cornsilk;
+    color: #1a1a2e;
     text-align: left;
     line-height: 1.6;
     min-height: 400px;
     align-self: stretch;
-    border: 2px solid #00d4ff;
+    border: 2px solid #f0a0c0;
 }
 
 .textfontgoogle{
@@ -136,14 +136,14 @@ a{
     position: sticky;
     top: 0px;
     padding: 3px;
-    background-color: black;
-    border: 2px solid #00d4ff;
+    background-color: #fff9f5;
+    border: 2px solid #f0a0c0;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     list-style: none;
     height: 50px;
-    color: white;
+    color: #1a1a2e;
 }
 
 .links2 {
@@ -153,8 +153,8 @@ a{
     top: 50px;
     z-index: 999;
     padding: 3px;
-    background-color: black;
-    border: 2px solid #00d4ff;
+    background-color: #fff9f5;
+    border: 2px solid #f0a0c0;
     border-radius: 10px;
     list-style: none;
 }
@@ -163,8 +163,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
-    border: 4px solid #00d4ff;
+    background-color: #fff9f5;
+    border: 4px solid #f0a0c0;
     border-radius: 10px;
     padding: 40px 50px 60px 50px;
     margin: 20px auto 0px auto;
@@ -173,9 +173,9 @@ a{
 }
 
 #formFull h1 {
-    border: 1px solid rgb(8, 8, 8);
+    border: 1px solid #f0a0c0;
     border-radius: 25px;
-    background-color: rgb(5, 5, 5);
+    background-color: #fdf6f0;
     margin: 0px auto 0px auto;
 }
 
@@ -185,17 +185,17 @@ a{
 
 .formGroup {
     text-align: center;
-    border: 1px solid rgb(8, 8, 8);
+    border: 1px solid #f0a0c0;
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(5, 5, 5);
+    background-color: #fdf6f0;
 }
 
 #formFull button {
-    color: white;
-    background-color: rgb(19, 19, 19);
-    border: 1px rgb(0, 255, 255) solid;
+    color: #1a1a2e;
+    background-color: #fff0f5;
+    border: 1px #f0a0c0 solid;
     border-radius: 10px;
     width: 200px;
     height: 35px;
@@ -205,8 +205,8 @@ a{
 }
 
 .formBloco {
-    background-color: white;
-    border: 2px solid black;
+    background-color: #fff9f5;
+    border: 2px solid #f0a0c0;
     text-align: center;
     width: 50%;
     font-size: 1.2em; 
@@ -214,12 +214,12 @@ a{
 
 .formBlocoTitulo {
     font-size: 1.4em; 
-    color: rgb(0, 255, 255);
+    color: #c0507a;
 }
 
 #formContato {
-    background-color: rgb(8, 8, 8);
-    border: 1px solid cyan;
+    background-color: #fdf6f0;
+    border: 1px solid #f0a0c0;
     border-radius: 10px;
     text-align: center;
     margin: 10px 0 0 0;
@@ -227,9 +227,9 @@ a{
 
 #formContato h4 {
     margin: 0px;
-    background-color: rgb(10, 10, 10);
-    border: 1px rgba(0, 255, 255, 0.147) solid;
-   border-radius: 10px;
+    background-color: #fff0f5;
+    border: 1px rgba(240, 160, 192, 0.4) solid;
+    border-radius: 10px;
     padding: 7px;
 }
 
@@ -239,7 +239,7 @@ a{
 }
 
 #formContato td {
-    border-bottom: 1px solid rgba(0, 242, 255, 0.057);
+    border-bottom: 1px solid rgba(240, 160, 192, 0.3);
     padding: 5px;
 }
 
@@ -248,8 +248,8 @@ a{
     bottom: 11px;
     right: 20px;
     padding: 10px 15px;
-    background-color: #00d4ff;
-    color: black;
+    background-color: #f0a0c0;
+    color: #1a1a2e;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -269,7 +269,7 @@ a{
     height: 50px;
     border: none;
     border-radius: 50%;
-    background-color: #00b7dc;
+    background-color: #f0a0c0;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -300,8 +300,8 @@ a{
 .btnFonte {
     width: 45px;
     height: 45px;
-    background-color: #00d4ff;
-    color: black;
+    background-color: #f0a0c0;
+    color: #1a1a2e;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -312,7 +312,6 @@ body.modoNoturnoFull {
     color: #ffffff !important;
 }
 
-/* body.modoNoturnoFull header,  isso da problema 👍 */
 body.modoNoturnoFull #sticky2,
 body.modoNoturnoFull #sticky, 
 body.modoNoturnoFull #footer {
@@ -341,11 +340,7 @@ body.modoNoturnoFull #formFull {
 body.modoNoturnoFull a {
     color: #00ff88 !important;
 }
-/* tomem esse ajuste de responsividade meus caros*/
 
-/* 
-    genio 
-*/
 .blocos-malwares img,
 .bloco-protecoes img {
     max-width: 100%;
@@ -380,12 +375,12 @@ body.modoNoturnoFull a {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #0e0e1a;
-    color: white;
+    background-color: #fff9f5;
+    color: #1a1a2e;
     text-align: center; 
     padding: 20px 50px;
     font-size: 14px;
-    border-top: 2px solid #00d4ff;
+    border-top: 2px solid #f0a0c0;
     z-index: 900;
     box-sizing: border-box;
 }
