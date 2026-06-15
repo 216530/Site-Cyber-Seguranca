@@ -334,11 +334,13 @@ body.modoNoturnoFull #footer {
     border-color: #00ff88 !important;
     color: #00ff88;
 }
+body.modoNoturnoFull .links2{
+    background-color: #000000;
+    border-color: #00ff88 !important;
+} 
 
 body.modoNoturnoFull nav ul,
-body.modoNoturnoFull .links2, 
 body.modoNoturnoFull #footer {
-    
     border-color: #00ff88 !important;
 }
 
