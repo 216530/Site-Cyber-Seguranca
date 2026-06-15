@@ -15,7 +15,7 @@ nav {
 }
 
 #sticky{
-    color: white;
+    color: black;
     display: flex;
     padding: 6px;
     position: sticky;
@@ -347,14 +347,15 @@ body.modoNoturnoFull #formContato td {
     border-color: #00ff8825 !important;
 }
 
-body.modoNoturnoFull #formFull h1 {
+body.modoNoturnoFull #formFull h1,
+body.modoNoturnoFull #links li {
     background-color: #0c0c14 !important;
     border-color: #00ff88 !important;
 }
 
-body.modoNoturnoFull #links li {
+body.modoNoturnoFull #sticky2 h1 {
     background-color: #000000 !important;
-    border-color: #00ff88 !important;
+    color: #00ff88 !important;
 }
 
 body.modoNoturnoFull .btnTema,
