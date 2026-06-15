@@ -103,6 +103,28 @@ a{
     border: 2px solid #f0a0c0;
 }
 
+.sectsobre{
+    display: flex;
+    gap: 67px ;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.blocos-sobre {
+    background: #fff9f5;
+    padding: 40px;
+    border-radius: 10px;
+    color: #1a1a2e;
+    text-align: left;
+    line-height: 1.6;
+    min-height: 400px;
+    align-self: stretch;
+    border: 2px solid #f0a0c0;
+    width: 30%;
+}
+
 .protecoes{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -353,7 +375,9 @@ body.modoNoturnoFull #formFull,
 body.modoNoturnoFull .formGroup,
 body.modoNoturnoFull #formContato, 
 body.modoNoturnoFull #formContato h4,
-body.modoNoturnoFull .formBloco {
+body.modoNoturnoFull .formBloco,
+body.modoNoturnoFull .blocos-sobre,
+body.modoNoturnoFull .sectsobre{
     background-color: #121222 !important;
     border-color: #00ff88 !important;
     color: #ffffff !important;
