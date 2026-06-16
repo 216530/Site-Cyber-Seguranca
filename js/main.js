@@ -13,6 +13,9 @@ function alternarTema() {
     var corpoPagina = document.body;
     var btnTema = document.querySelector(".btnTema");
     corpoPagina.classList.toggle("modoNoturnoFull");
+    var textos = ["Modo Escuro", "Modo Claro"];
+    var indice = Number(corpoPagina.classList.contains("modoNoturnoFull"));
+    btnTema.textContent = textos[indice];
 }
 
 /* tive que mudar essa parte de JS pq tava quebrando o resto kkkkk*/
